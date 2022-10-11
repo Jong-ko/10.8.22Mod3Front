@@ -1,0 +1,42 @@
+.tic {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+}
+
+
+.box1{
+    background-color: black;
+}
+
+.box2{
+
+}
+
+.box3{
+    background-color: black;
+}
+
+.box4{
+
+}
+
+.box5{
+    background-color: black;
+}
+
+.box6{
+
+}
+
+.box7{
+    background-color: black;
+}
+
+.box8{
+
+}
+
+.box9{
+    background-color: black;
+}

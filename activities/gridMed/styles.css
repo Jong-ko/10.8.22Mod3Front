@@ -1,0 +1,40 @@
+
+h1{
+    padding-left: 10px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgrey;
+}
+.logo{
+    flex-basis: 66vw;
+}
+.navBar {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+   
+}
+.navItem{
+    padding: 0px 10px 0px 0px;
+}
+.layout{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 66vw 33vw;
+}
+.blogPost {
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+.extraLinks{
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+footer{
+    background-color: lightgrey;
+}
+.copyright{
+    text-align: center;
+}

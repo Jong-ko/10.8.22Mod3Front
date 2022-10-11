@@ -1,0 +1,54 @@
+body {
+    background: black;
+}
+p{
+    color: green;
+    text-align: right;
+}
+
+.brickgrid{
+    display: grid;
+    grid-template-rows: repeat(18, 50px);
+    grid-template-columns:  repeat(12, 100px);
+    border-top: 50px;
+    border-left: 50px;
+    border-color: blanchedalmond;
+}
+
+.redblock{
+    background: red;
+    margin: 2px 2px 2px 2px ;
+}
+.yellowblock{
+    background: yellow;
+    margin: 2px 2px 2px 2px ;
+}
+.greenblock{
+    background: green;
+    margin: 2px 2px 2px 2px ;
+}
+.blueblock{
+    background-color: blue;
+    margin: 2px 2px 2px 2px ;
+}
+.emptyblock1{
+    display: grid;
+    grid-template-rows: repeat(2, 25px);
+    grid-template-columns: repeat(4, 20px);
+}
+.ball1{
+    background-color: white;
+    margin: 2px 2px 2px 2px ;
+}
+.ball2{
+    background-color: white;
+    margin: 2px 2px 2px 2px ;
+    grid-column-start: 5;
+}
+.paddle{
+    background-color: greenyellow;
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 18 ;
+    grid-row-end: 18;
+}
